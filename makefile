@@ -5,7 +5,7 @@ all: test run
 
 run:
 	grip README.md --export README.html
-	jupyter nbconvert --inplace --execute --ExecutePreprocessor.timeout=120 $(NB)
+	jupyter nbconvert --inplace --execute --ExecutePreprocessor.timeout=-1 $(NB)
 
 test:
 	python check_install.py
@@ -17,6 +17,7 @@ install:
 clean:
 	jupyter nbconvert --inplace --ClearOutputPreprocessor.enabled=True $(NB)
 	rm -f README.html
+	rm -f toolkit/subset.html
 	rm -fr data
 
 readme:

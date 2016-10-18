@@ -1,4 +1,6 @@
-__pycache__
-.ipynb_checkpoints
-data
-*.html
+__pycache__/
+.ipynb_checkpoints/
+data/
+next/
+.DS_Store
+README.html

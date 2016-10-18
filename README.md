@@ -5,31 +5,37 @@ This repository contains the exercises for the EPFL master course
 
 [epfl]: http://edu.epfl.ch/coursebook/en/a-network-tour-of-data-science-EE-558
 
-The **Data Science toolkit**, a set of [tools][toolkit] available to the Data
-Scientist.
+The **Data Scientist toolkit**, a set of [tools][toolkit], mostly in Python, to
+help during the Data Science process.
 
 1. [Introduction][00_intro].
-2. Data acquisition & exploration ([demo][01_demo], exercise). 
-3. Data exploitation (demo, exercise).
-4. High Performance Computing (demo, exercise).
-5. Cloud (demo, exercise).
-6. Graph tools (demo, exercise).
+2. Data acquisition & exploration: [demo][01_demo], [exercise][01_ex], [solution][01_sol].
+3. Data exploitation: demo, exercise.
+4. High Performance Computing: demo, exercise.
+5. Cloud: demo, exercise.
+6. Graph tools: demo, exercise.
+
+[toolkit]:    http://nbviewer.jupyter.org/github/mdeff/ntds_2016/tree/with_outputs/toolkit
+[00_intro]:   http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/toolkit/00_introduction.ipynb
+[01_demo]:    http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/toolkit/01_demo_acquisition_exploration.ipynb
+[01_ex]:      http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/toolkit/01_ex_acquisition_exploration.ipynb
+[01_sol]:     http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/toolkit/01_sol_acquisition_exploration.ipynb
 
 **Machine Learning** (ML) & **Graph Signal Processing** (GSP) [algorithms].
 These exercises are designed so as to familiarize yourself with the algorithms
 presented in class.
 
-1. Graph Science (exercise).
-2. Clustering (exercise).
-3. Classification (exercise).
-4. Neural Networks (exercise).
-5. Signal Processing on Graphs (exercise).
-6. Sketching and other randomized approaches (exercise).
+1. Graph Science: [exercise][01_ex].
+2. Clustering: [exercise][02_ex], [assignment][02_ass].
+3. Classification: exercise.
+4. Neural Networks: exercise.
+5. Signal Processing on Graphs: exercise.
+6. Sketching and other randomized approaches: exercise.
 
 [algorithms]: http://nbviewer.jupyter.org/github/mdeff/ntds_2016/tree/with_outputs/algorithms
-[toolkit]:    http://nbviewer.jupyter.org/github/mdeff/ntds_2016/tree/with_outputs/toolkit
-[00_intro]:   http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/toolkit/00_introduction.ipynb
-[01_demo]:    http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/toolkit/01_demo_acquisition_exploration.ipynb
+[01_ex]:      http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/algorithms/01_ex_graph_science.ipynb
+[02_ex]:      http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/algorithms/02_ex_clustering.ipynb
+[02_ass]:     http://nbviewer.jupyter.org/github/mdeff/ntds_2016/blob/with_outputs/algorithms/02_ass_clustering.ipynb
 
 ## Installation
 
@@ -103,3 +109,8 @@ presented in class.
 [PyPI]: https://pypi.python.org
 [git]: https://git-scm.com/downloads
 [theano_windows_py35]: https://github.com/Theano/Theano/issues/3376#issuecomment-235034897
+
+## License
+
+All codes and examples are released under the terms of the [MIT
+License](LICENSE.txt).
